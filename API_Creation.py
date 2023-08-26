@@ -13,7 +13,7 @@ app = Flask(__name__)
 def execute_script():
     # Extract any required data from the request
     #data = request.json
-    reco_data = recommendation_system_methods.getRecoUserBased('root', 'Chins@123')
+    reco_data = recommendation_system_methods.getRecoUserBased('root', 'pwd')
 
     # the 3 lines below are to return a CSV
     #temp_csv = tempfile.NamedTemporaryFile(suffix='.csv', delete=False)
